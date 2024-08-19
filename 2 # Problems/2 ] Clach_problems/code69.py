@@ -11,6 +11,4 @@
 # print(sum(ord(i)if ord(i)%2==1else 0 for i in input()))
 # c = eval(f"{c}{a}{b}")
 n = int(input())
-w = input()
-n = n % len(w)
-print(w[n:]+w[:n])
+print(n**3+1)

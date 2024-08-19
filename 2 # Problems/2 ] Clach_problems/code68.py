@@ -10,7 +10,13 @@
 # dic = defaultdict(int)
 # print(sum(ord(i)if ord(i)%2==1else 0 for i in input()))
 # c = eval(f"{c}{a}{b}")
-n = int(input())
-w = input()
-n = n % len(w)
-print(w[n:]+w[:n])
+s = input()
+ss = ""
+for i in s:
+    if i.isupper():
+        ss += (str(ord(i)-(ord('A')-1)))
+    elif i.islower():
+        ss += (str(ord(i)-(ord('a')-1)))
+    else:
+        ss += i
+print(ss)
