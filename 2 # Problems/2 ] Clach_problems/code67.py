@@ -10,16 +10,3 @@
 # dic = defaultdict(int)
 # print(sum(ord(i)if ord(i)%2==1else 0 for i in input()))
 # c = eval(f"{c}{a}{b}")
-import sys
-import math
-
-n = int(input())
-l = []
-for i in range(n):
-    x = int(input())
-    if x in l:
-        l.append(x)
-        print(x)
-
-
-

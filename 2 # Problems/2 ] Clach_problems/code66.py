@@ -10,16 +10,13 @@
 # dic = defaultdict(int)
 # print(sum(ord(i)if ord(i)%2==1else 0 for i in input()))
 # c = eval(f"{c}{a}{b}")
-import sys
-import math
 
-n = int(input())
-l = []
-for i in range(n):
-    x = int(input())
-    if x in l:
-        l.append(x)
-        print(x)
+d = {'quarter': 0.25, 'dime': 0.10, 'nickel': 0.05, 'penny': 0.01}
 
+s = input().split()
+ss = 0
+for i in s:
+    ss += d[i]
+print("%.2f" %(ss))
 
 
