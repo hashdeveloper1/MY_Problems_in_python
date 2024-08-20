@@ -21,12 +21,25 @@
 # print(ss)
 
 
-import sys
-import math
-import re
+# import sys
+# import math
+# import re
+#
+# o = input()
+#
+# a = re.findall('|^^',orbitals)
+# print(a)
+# print(' '.join(a) if a else 'Correct')
 
-o = input()
-
-a = re.findall('|^^',orbitals)
-print(a)
-print(' '.join(a) if a else 'Correct')
+# o = input().replace("|"," ").split()
+# l = []
+# for g in o:
+#     if g in ["^^", "vv"]:
+#         l.append(g)
+# if len(l) == 0:
+#     print("Correct")
+# else:
+#     l.append('VV')
+#     print(*l)  //
+l = [1, 2, 3, 4, 5, 6]
+print(*l*len(l))
