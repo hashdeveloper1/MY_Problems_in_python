@@ -17,3 +17,18 @@
 # print(aa.pop())
 # ss1.update(ss2)
 # ===============================
+print("="*10)
+s1 = {1, 2, 3}
+s2 = {1, 2}
+print(s1)
+print(s1.difference(s2))
+print(s1)
+print("="*10)
+# ===============================
+s1 = {1, 2, 3}
+s2 = {1, 2}
+print(s1)
+s1.difference_update(s2)
+print(s1)
+print("="*10)
+# ===============================
