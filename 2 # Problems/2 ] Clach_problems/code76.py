@@ -10,5 +10,10 @@
 # dic = defaultdict(int)
 # print(sm(ord(i)if ord(i)%2==1else 0 for i in input()))
 # c = eval(f"{c}{a}{b}")
-s = input()
-print(len(s)//2)
+
+m = input()
+l = input()
+if l.upper():
+   print(m[ord(l)-ord('A')])
+else:
+   print(m[ord(l)-ord('a')])

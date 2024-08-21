@@ -11,4 +11,13 @@
 # print(sm(ord(i)if ord(i)%2==1else 0 for i in input()))
 # c = eval(f"{c}{a}{b}")
 s = input()
-print(len(s)//2)
+sr = s[-2:]
+sr = sr[::-1]
+sl = s[:-2]
+ss = ''
+for i in range(len(sl)):
+    if i < 2:
+       ss += sl[i] + sr[i]
+    else:
+       ss += sl[i]
+print(ss)

@@ -10,5 +10,8 @@
 # dic = defaultdict(int)
 # print(sm(ord(i)if ord(i)%2==1else 0 for i in input()))
 # c = eval(f"{c}{a}{b}")
-s = input()
-print(len(s)//2)
+
+s1 = set(input())
+s2 = set(input())
+s1.intersection_update(s2)
+print(sorted(s1))

@@ -11,4 +11,20 @@
 # print(sm(ord(i)if ord(i)%2==1else 0 for i in input()))
 # c = eval(f"{c}{a}{b}")
 s = input()
-print(len(s)//2)
+m = input()
+if m == '|':
+   print(s)
+elif m == '/':
+      ss = ''
+      s = s[::-1]
+      for i in range(len(s)):
+         ss = i*'.'
+         ss += s[i]
+         print(ss)
+else:
+   ss = ''
+   for i in range(len(s)-1,-1, -1):
+      ss = i * '.'
+      ss += s[i]
+      print(ss)
+
