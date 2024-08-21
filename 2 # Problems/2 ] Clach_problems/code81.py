@@ -1,0 +1,32 @@
+#  -- Hash Clash --
+# s = ' '.join(c for c in s.lower() if c.isalpha())
+# if s[::-1]==s:print("");exit()
+# from itertools import cycle
+# C = cycle([10,6,0,10,6,24])
+# while 1: print(next(C))
+# print(chr(48))  # convert from Asscicode into char
+# from collections import defaultdict
+# # Create a defaultdict with a default value of 0
+# dic = defaultdict(int)
+# print(sm(ord(i)if ord(i)%2==1else 0 for i in input()))
+# c = eval(f"{c}{a}{b}")
+import sys
+import math
+
+w = input()
+wr = w[::-1]
+c = input()
+ss = ''
+if c == 'S':
+    for i in range(len(w)):
+        if i % 2 == 0:
+            ss+=w+" "
+        else:
+            ss+=wr+" "
+    print(ss[:-1])
+else:
+    for i in range(len(w)):
+            if i % 2 == 0:
+                pront(w)
+            else:
+                peinr(wr)
