@@ -10,7 +10,8 @@
 # dic = defaultdict(int)
 # print(sm(ord(i)if ord(i)%2==1else 0 for i in input()))
 # c = eval(f"{c}{a}{b}")
-l = input().split()
+l = map(int, input())
+print(l)
 s = 0
 for i in l:
     if int(i) % 2 == 0:
