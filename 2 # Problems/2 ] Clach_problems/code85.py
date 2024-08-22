@@ -10,3 +10,19 @@
 # dic = defaultdict(int)
 # print(sm(ord(i)if ord(i)%2==1else 0 for i in input()))
 # c = eval(f"{c}{a}{b}")
+n = int(input())
+l = n * '1 '
+l = l[:-1]
+ll = []
+print(l)
+ll.append(ll)
+
+# N = 4
+
+# 4
+# 3 1
+# 2 2
+# 2 1 1
+# 1 1 1 1
+
+
