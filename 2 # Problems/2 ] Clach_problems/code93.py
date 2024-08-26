@@ -10,7 +10,3 @@
 # dic = defaultdict(int)
 # print(sm(ord(i)if ord(i)%2==1else 0 for i in input()))
 # c = eval(f"{c}{a}{b}")
-n = int(input())
-for i in range(n):
-    s = input()
-    print((s.count('.')//2)*'.')
