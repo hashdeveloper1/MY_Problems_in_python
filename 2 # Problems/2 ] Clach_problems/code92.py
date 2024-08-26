@@ -10,9 +10,3 @@
 # dic = defaultdict(int)
 # print(sm(ord(i)if ord(i)%2==1else 0 for i in input()))
 # c = eval(f"{c}{a}{b}")
-c = int(input())
-re = 0
-for i in range(c):
-    n = int(input())
-    re += n
-print(re//c)
