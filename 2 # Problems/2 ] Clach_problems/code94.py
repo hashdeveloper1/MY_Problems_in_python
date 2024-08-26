@@ -10,14 +10,15 @@
 # dic = defaultdict(int)
 # print(sm(ord(i)if ord(i)%2==1else 0 for i in input()))
 # c = eval(f"{c}{a}{b}")
-import sys
-import math
-n = int(input())
-re = 1
-m = 0
-mi = 1000000
-for i in range(n):
-    a = int(input())
-    m = max(a,m)
-    mi = min(a,mi)
-print(int(math.sqrt(m*mi)))
+ss = 'aeiou'
+ll = []
+for i in s:
+    ii = i.lower()
+    re = ''
+    for j in range(len(ii)):
+        if ss.find(j) != -1:
+            ii = ii.replace(ii[j],'',1)
+            re += ii[j]+ii+'ay'
+            break
+    ll.append(re)
+print(*ll)
