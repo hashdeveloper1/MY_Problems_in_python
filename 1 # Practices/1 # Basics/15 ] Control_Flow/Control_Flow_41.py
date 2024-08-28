@@ -1,15 +1,14 @@
-age = int(input("Enter Your Age : ").strip())
-# =========================
-month = age * 12
-week = month * 4
-day = week * 7
-hours = day * 24
-mints = hours * 60
-seconds = mints * 60
-# =========================
-print("You Lived for")
-print(f"{month} Month")
-print(f"{week:,} Week")
-print(f"{day:,} Days")
-print(f"{mints:,} Mints")
-# =========================
+name = "Hashem"
+country = "Egypt"
+course_name = "Python Course"
+course_price = 100
+
+if country == 'Egypt':
+    print(f'Hello {name} ....')
+    print(f"Because you from {country} Your course Price is : ${course_price-80}")
+elif country == 'ASW':
+    print(f'Hello {name} ....')
+    print(f"Because you from {country} Your course Price is : ${course_price-60}")
+else:
+    print(f'Hello {name} ....')
+    print(f"Because you from {country} Your course Price is : ${course_price - 30}")
