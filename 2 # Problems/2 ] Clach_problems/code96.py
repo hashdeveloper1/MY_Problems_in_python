@@ -10,10 +10,10 @@
 # dic = defaultdict(int)
 # print(sm(ord(i)if ord(i)%2==1else 0 for i in input()))
 # c = eval(f"{c}{a}{b}")
-d = {'logia':100,'paramecia':75,'zoan':25}
-n = int(input())
-s = 0
-for i in range(n):
-    f = input()
-    s+=d[f]
-print(f"{s} beli")
+# c = input()
+# x = int(input())
+# cc = 0
+# for i in range(1, x+1):
+#      s = ((x-i)*' ') + (c*(i+cc))
+#      cc += 1
+#      print(s)
