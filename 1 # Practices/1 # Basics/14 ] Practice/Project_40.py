@@ -1,9 +1,15 @@
-# ===============================
-#          -- Input --
-# ===============================
-# ===============================
-name = input("Enter Your Name : ").strip().capitalize()
-email = input("Enter Your Email : ").strip()
-user_name = email[0:email.find('@')]
-domin = email[email.find('@') + 1:]
-print(f"Hello {name} \nYour UserName is : {user_name} \nDomin Name is : {domin}")
+age = int(input("Enter Your Age : ").strip())
+# =========================
+month = age * 12
+week = month * 4
+day = week * 7
+hours = day * 24
+mints = hours * 60
+seconds = mints * 60
+# =========================
+print("You Lived for")
+print(f"{month} Month")
+print(f"{week:,} Week")
+print(f"{day:,} Days")
+print(f"{mints:,} Mints")
+# =========================
