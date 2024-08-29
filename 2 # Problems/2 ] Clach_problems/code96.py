@@ -17,3 +17,16 @@
 #      s = ((x-i)*' ') + (c*(i+cc))
 #      cc += 1
 #      print(s)
+s = input()
+ss = ''
+sss = ''
+c = 0
+for i in s:
+    if c == 3:
+        sss += ss + ' '
+        ss = ''
+        c = 0
+    ss += i
+    c += 1
+
+print(sss[:-1])
